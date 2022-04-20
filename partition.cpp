@@ -331,7 +331,7 @@ int main(int argc, char **argv) {
 
     if(!strcmp(argv[1], "0")) {
         int alg_code = stoi(argv[2]);
-        int n = 5;
+        int n = 100;
 
         ifstream input_file(argv[3]);
         if (!input_file.is_open()) {
